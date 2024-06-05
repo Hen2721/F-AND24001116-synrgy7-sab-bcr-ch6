@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppAyatText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/uthmanic</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="AppHeading" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppBodyText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="Button.Danger" parent="Button">
+        <item name="backgroundTint">@color/red</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="CardTitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardSubtitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

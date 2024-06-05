@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ZQuran</string>
+
+    <string name="get_started_title">Learn Quran Everyday</string>
+    <string name="get_started_desc">The Quran is the central religious text of Islam. Muslims believe the Quran is the book of divine guidance and direction for mankind.</string>
+    <string name="get_started_text">Get Started</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_password">Password</string>
+
+    <string name="message_success">Hurray success 😍</string>
+    <string name="message_error">Failed ☹️</string>
+    <string name="message_logout">Logout success!</string>
+
+    <string name="home_text">Home</string>
+    <string name="profile_text">Profile</string>
+    <string name="logout_text">Logout</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="update_profile_text">Update Profile</string>
+    <string name="edit_image_text">Edit Image</string>
+
+    <string name="login_text">Login</string>
+    <string name="login_desc">Please sign in to continue</string>
+    <string name="login_register_text">Dont have an account?</string>
+    <string name="login_register_text_2">Register here!</string>
+
+    <string name="register_text">Register</string>
+    <string name="register_desc">Please register to continue</string>
+    <string name="register_login_text">Already have an account?</string>
+    <string name="register_login_text_2">Login here!</string>
+
+    <string name="surah_list_title">Surah List</string>
+    <string name="surah_list_desc">List of surahs that you can read</string>
+
+    <string name="language_text">Change Language</string>
+    <string name="language_id">Indonesian</string>
+    <string name="language_en">English</string>
+
+    <string name="play_text">Play</string>
+    <string name="stop_text">Stop</string>
+</resources>

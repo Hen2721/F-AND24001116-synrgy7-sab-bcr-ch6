@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.SurahDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/surah_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/surah_detail_title"
+            style="@style/AppHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. QS. Al-Faatiha"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/surah_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(The Opening)"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/surah_detail_ayat"
+            style="@style/AppBodyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 Ayat"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ayat_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_ayat"
+            android:paddingVertical="30dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZQuran</string>
+
+    <string name="get_started_title">Belajar Quran Setiap Hari</string>
+    <string name="get_started_desc">Al-Quran adalah teks keagamaan utama Islam. Umat Muslim percaya Al-Quran adalah kitab petunjuk dan petunjuk ilahi bagi umat manusia.</string>
+    <string name="get_started_text">Mulai Sekarang</string>
+
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Telepon</string>
+    <string name="hint_password">Password</string>
+
+    <string name="message_success">Hore sukses 😍</string>
+    <string name="message_error">Gagal ☹️</string>
+    <string name="message_logout">Berhasil Keluar!</string>
+
+    <string name="home_text">Beranda</string>
+    <string name="profile_text">Profil</string>
+    <string name="logout_text">Keluar</string>
+    <string name="edit_profile_text">Ubah Profil</string>
+    <string name="update_profile_text">Perbarui Profil</string>
+    <string name="edit_image_text">Ubah Gambar</string>
+
+    <string name="login_text">Masuk</string>
+    <string name="login_desc">Masuk untuk melanjutkan</string>
+    <string name="login_register_text">Belum punya akun?</string>
+    <string name="login_register_text_2">Daftar disini!</string>
+
+    <string name="register_text">Daftar</string>
+    <string name="register_desc">Daftar untuk melanjutkan</string>
+    <string name="register_login_text">Sudah mempunyai akun?</string>
+    <string name="register_login_text_2">Masuk disini!</string>
+
+    <string name="surah_list_title">Daftar Surah</string>
+    <string name="surah_list_desc">Daftar surah yang dapat kamu baca</string>
+
+    <string name="language_text">Ubah Bahasa</string>
+    <string name="language_id">Indonesia</string>
+    <string name="language_en">Inggris</string>
+
+    <string name="play_text">Putar</string>
+    <string name="stop_text">Berhenti</string>
+</resources>

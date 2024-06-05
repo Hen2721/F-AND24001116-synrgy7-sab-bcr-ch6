@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/item_ayat_arab"
+        style="@style/AppAyatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ "/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/item_ayat_text"
+        style="@style/AppBodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Dengan nama Allah Yang Maha Pengasih, Maha Penyayangِ"
+        android:layout_marginTop="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Button.Primary"
+        android:id="@+id/item_ayat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_text"
+        android:drawableLeft="@drawable/ic_play"
+        android:drawableTint="@color/white"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Button.Danger"
+        android:id="@+id/item_ayat_button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_text"
+        android:drawableLeft="@drawable/ic_stop"
+        android:drawableTint="@color/white"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <include layout="@layout/horizontal_rule" />
+
+</LinearLayout>
